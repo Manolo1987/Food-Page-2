@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sriracha", cursive;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+header i {
+    font-size: 1.5em;
+}
+header .logo{
+    font-size: 1.5em;
+    display: flex;
+}
+header .logo span {
+    margin-left: 20px;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 1.5em;
+    color: black
+    ;
+}
+.roulade {
+    background-image: url(./img/20220611154811-kalorienarme-20kohlrouladen.jpg);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.roulade .text {
+    padding: 11em 12em;
+  }
+ .roulade h1 {
+    color: white;
+    font-size: 12em;
+    margin: 0;
+  }
+  .roulade p {
+    color: white;
+    font-size: 4em;
+  }
+  .roulade button {
+    padding: 0.5em 1.5em;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+.roulade a{
+    text-decoration: none;
+    padding: 1em 1.5em;
+    color: black
+    ;
+}
+
+#dessert {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+#dessert img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.textbox {
+   padding: 2em;
+}
+.textbox h2{
+    font-size: 3em;
+}
+.textbox p{
+    font-size: 1.1em;
+}
+#dessert > div {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 40%;
+    height: 600px;
+    margin: 3%;
+    border-radius: 5%;
+}
+footer {
+    text-align: center;
+    padding: 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* margin-top: 3%; */
+}
+.carouselpad {
+    padding: 15em;
+}
